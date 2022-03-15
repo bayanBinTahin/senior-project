@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    tools:context=".MonthlyAnalysis"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="138dp"
+        android:textSize="20sp"
+        android:text="Today"
+        android:paddingEnd="10pt"
+        android:paddingStart="10pt"
+        android:layout_marginEnd="150dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="25dp"
+        android:id="@+id/buttonToday"/>
+
+    <Button
+        android:layout_height="51dp"
+        android:layout_width="164dp"
+        android:textSize="16sp"
+        android:text="This month"
+        android:paddingEnd="10pt"
+        android:paddingStart="10pt"
+        android:layout_marginEnd="150dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="-100dp"
+        android:id="@+id/buttonMonth"
+        app:iconTint="#7C7979"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="1dp"
+        tools:layout_editor_absoluteX="1dp">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="34sp"
+        android:text="Monthly Analysis"
+        android:id="@+id/DailyAnalysis"
+        android:textColor="#2C77B3"
+        android:textAlignment="center"
+        android:paddingTop="15pt"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="24sp"
+        android:text="MonthlyAverge"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="30dp"
+        android:id="@+id/textViewMonthly"
+        android:textColor="#757474"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="24sp"
+        android:text="More details"
+        android:layout_marginTop="-100dp"
+        android:layout_marginStart="30dp"
+        android:id="@+id/textViewDetails"
+        android:textColor="#757474"
+        android:layout_weight="1"/>
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+    <TextView
+        android:id="@+id/textSignUp2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        android:text="Sing up"
+        android:textColor="#2C77B3"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textHappyActivitySignUp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Which activities make you happy?"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/checkBoxEatIceCreamSignUp2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Eat ice cream" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxGoInPicnicSignUp2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Go in picnic" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxWatchAMovieSignUp2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Watch a movie" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/checkBosReadABookSignUp2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Read a book" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxPlayVideoGamesSignUp2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Play video games" />
+
+                <CheckBox
+                    android:id="@+id/checkBosTalkWithFriendsSignUp2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Talk with friends" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textRelaxActivitySignUp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Which activities make you relax?"
+            android:layout_margin="15dp"
+            android:textColor="#000000"
+            android:textSize="16sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkBoxGoToSpaSignUp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Go to spa" />
+
+            <CheckBox
+                android:id="@+id/checkBoxTakeAShowerSignUp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Take a shower" />
+
+            <CheckBox
+                android:id="@+id/checkBoxGoCyclingSignUp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do cycling" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkBoxPaintingSignUp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Painting" />
+
+            <CheckBox
+                android:id="@+id/checkBoxListenToCalmMusicSignUp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Listen to calm music" />
+
+            <CheckBox
+                android:id="@+id/checkBoxWatchTheSunriseSignUp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Watch the sunrise" />
+        </LinearLayout>
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonToSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="#2C77B3"
+            android:text="Sign up "
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DailyAnalysis">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonToday"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="150dp"
+            android:paddingStart="10pt"
+            android:paddingEnd="10pt"
+            android:text="Today"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonMonth"
+            android:layout_width="164dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="-100dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="150dp"
+            android:paddingStart="10pt"
+            android:paddingEnd="10pt"
+            android:text="This month"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/EditRelax"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15pt"
+            android:text="Edit Relax Activities"
+            android:textAlignment="center"
+            android:textColor="#2C77B3"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textViewDaily"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="250dp"
+            android:layout_weight="1"
+            android:text="DailyAverge"
+            android:textColor="#757474"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textViewDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="-100dp"
+            android:layout_weight="1"
+            android:text="More details"
+            android:textColor="#757474"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
